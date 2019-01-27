@@ -1,0 +1,161 @@
+﻿.section-wrapper, section, .partial-wrapper
+{
+    position: relative;
+}
+
+.height-tall
+{
+    min-height: calc(100vh - 50px);
+}
+
+.height-medium
+{
+    min-height: 700px;
+}
+
+.height-standard
+{
+    min-height: 375px;
+}
+
+.height-small
+{
+    min-height: 200px;
+}
+
+.height-tiny
+{
+    min-height: 100px;
+}
+
+background-static
+{
+    background-size: cover;
+    background-position: center center;
+}
+
+section.background-parallax
+{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header
+{
+    max-height: calc(100vh - 50px);
+    color: white;
+}
+
+.blank
+{
+    padding: 30px 2.5% 30px 2.5%;
+    text-align: center;
+}
+
+section p, section a
+{
+    margin-bottom: 20px;
+}
+
+table
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+    table tr th
+    {
+        text-align: center;
+    }
+
+    table tr td
+    {
+        padding: 2px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+#page-wrapper.zoom
+{
+    width: 30%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px dashed white;
+}
+
+    #page-wrapper.zoom .section-wrapper section, #page-wrapper.zoom .partial-wrapper section
+    {
+        -ms-zoom: 0.3;
+        zoom: 0.3;
+        pointer-events: none;
+    }
+
+    #page-wrapper.zoom .section-wrapper .action-container, #page-wrapper.zoom .partial-wrapper .action-container
+    {
+        display: none;
+    }
+
+.mce-ico.mce-i-trash
+{
+    background-image: url('/Areas/PageBuilder/Content/Images/Toolbar/mce-trash.png');
+}
+
+@media (max-width: 1024px)
+{
+    section.background-parallax
+    {
+        background-attachment: scroll;
+    }
+
+    #page-wrapper.zoom .section-wrapper section
+    {
+        -ms-zoom: 0.25;
+        zoom: 0.25;
+    }
+
+    #page-wrapper.zoom
+    {
+        width: 60%;
+    }
+}
+
+@media (max-width: 968px)
+{
+    section.height-tall
+    {
+        min-height: 80vh;
+    }
+
+    section.height-medium
+    {
+        min-height: 80vh;
+    }
+
+    #page-wrapper.zoom
+    {
+        width: 80%;
+    }
+}
+
+@media (max-width: 736px)
+{
+    section.height-tall
+    {
+        min-height: 80vh;
+    }
+
+    section.height-medium
+    {
+        min-height: 80vh;
+    }
+
+    .panel-overlay
+    {
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        width: auto;
+    }
+}

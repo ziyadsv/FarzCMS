@@ -1,0 +1,124 @@
+﻿.box
+{
+    position: relative;
+    background-color: white;
+    border: 1px solid #E2E2E2;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    min-height: 220px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px #BDBDC1;
+    background-size: cover;
+    background-position: center center;
+    -moz-transition: box-shadow 0.2s ease-in-out;
+    -o-transition: box-shadow 0.2s ease-in-out;
+    -webkit-transition: box-shadow 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+    .box:hover
+    {
+        box-shadow: 1px 1px 20px #ACACAF;
+    }
+
+    .box.box-tall
+    {
+        min-height: 330px;
+    }
+
+    .box img.avatar
+    {
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+
+.box-title, #page-wrapper p.box-title
+{
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #EAEAEA;
+    color: black;
+    padding: 8px 15px 8px 20px;
+    border-bottom-left-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.box-more
+{
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #EAEAEA;
+    color: black;
+    padding: 8px 15px 8px 20px;
+    border-bottom-left-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+    .box-more a
+    {
+        font-size: 14px;
+    }
+
+.admin-container
+{
+    position: absolute;
+    width: 90%;
+    bottom: 7px;
+    border-top: 1px solid #E6E6ED;
+    padding-top: 5px;
+}
+
+    .admin-container .admin-item
+    {
+        display: inline-block;
+        padding: 10px;
+        color: #9395A0;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+        .admin-container .admin-item .fa
+        {
+            margin-right: 15px;
+        }
+
+.dark .admin-container .admin-item
+{
+    color: white;
+}
+
+.admin-container .admin-item:hover
+{
+    color: black;
+}
+
+.dark .admin-container .admin-item:hover
+{
+    color: white;
+}
+
+.admin-container.x3 .admin-item
+{
+    width: 32.5%;
+}
+
+.admin-container.x2 .admin-item
+{
+    width: 49%;
+}
+
+.admin-container.x1 .admin-item
+{
+    width: 100%;
+}

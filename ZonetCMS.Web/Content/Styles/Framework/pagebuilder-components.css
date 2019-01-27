@@ -1,0 +1,352 @@
+﻿.admin .component-container
+{
+    border: 1px dashed gray;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    min-height: 20px;
+}
+
+.admin .box.component-container
+{
+    min-height: 200px;
+}
+
+.section-wrapper.admin .component-container.ui-state-hover
+{
+    min-height: 275px;
+    border: 1px dashed red;
+}
+
+    .component-container
+{
+    position: relative;
+    z-index: 2;
+}
+
+.admin .row
+{
+    border-color: brown;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.admin .mce-content-body:not(.btn)
+{
+    border: 1px solid transparent;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    border-radius: 5px;
+}
+
+.admin .mce-content-body:hover
+{
+    cursor: text;
+    border: 1px dashed gray;
+}
+
+.admin .col-xs-2, .admin .col-xs-3, .admin .col-xs-4, .admin .col-xs-6, .admin .col-xs-12
+{
+    border-color: green;
+    min-height: 150px;
+}
+
+.admin table.component-container
+{
+    display: block;
+    border-color: brown;
+}
+
+.admin tbody
+{
+    display: block;
+}
+
+.admin tr
+{
+    display: table;
+    width: 100%;
+}
+
+.admin th.component-container
+{
+    display: table-cell;
+    min-width: 100px;
+    border: 1px dashed purple;
+}
+
+.admin td.component-container
+{
+    position: relative;
+    display: table-cell;
+    min-width: 100px;
+    border-color: green;
+}
+
+section:after, .row:after
+{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+section .vertical-alignment
+{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding: 0 10% 0 10%;
+}
+
+.admin .widget-wrapper
+{
+    padding: 10px;
+    border: 1px dashed black;
+    cursor: pointer;
+}
+
+    .admin .widget-wrapper.video
+    {
+        padding: 0;
+        padding-bottom: 56.25%;
+    }
+
+        .admin .widget-wrapper.video iframe
+        {
+            margin-top: 20px;
+        }
+
+        .admin .widget-wrapper.video:after
+        {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+
+@media (max-width: 767px)
+{
+    .action-container.wide .action
+    {
+        text-align: center;
+        padding-right: 5px;
+        border-radius: 50%;
+        font-size: 18px;
+        height: 50px;
+        line-height: 52px;
+        width: 50px;
+    }
+}
+
+.component-expand
+{
+    border: 1px solid silver;
+    text-align: left;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+    .component-expand .component-expand-header
+    {
+        width: 100%;
+        background-color: silver;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+.component-expand-header h3
+{
+    margin: 0;
+    padding: 0;
+    line-height: 45px;
+}
+
+    .component-expand-header h3:before
+    {
+        font-family: 'Glyphicons Halflings';
+        margin-right: 10px;
+        font-size: 18px;
+        content: "\e114";
+    }
+
+.component-expand.active .component-expand-header h3:before
+{
+    content: "\e113";
+}
+
+.visitor .component-body
+{
+    display: none;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.admin .component-expand-body
+{
+    display: block;
+}
+
+.component-preview .component-expand-body
+{
+    display: block;
+}
+
+.image
+{
+    display: inline-block;
+    height: 125px;
+    width: 125px;
+    background-size: cover;
+    background-position: center center;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+    .image.image-circle
+    {
+        border-radius: 50%;
+    }
+
+    .image.image-icon
+    {
+        height: 64px;
+        width: 64px;
+    }
+
+    .image.image-standard
+    {
+        width: 300px;
+        height: 225px;
+    }
+
+    .image.image-auto
+    {
+        width: auto;
+        max-width: 90%;
+        height: auto;
+    }
+
+    .image.image-fill
+    {
+        width: 80%;
+        min-height: 280px;
+    }
+
+    .image.image-block
+    {
+        width: 100%;
+        margin: 0;
+        height: 65vh;
+    }
+
+.admin .image
+{
+    cursor: pointer;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+    .admin .image:hover
+    {
+        opacity: 0.8;
+    }
+
+.checkbox-group
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed silver;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+
+.checkbox-option
+{
+    float: left;
+    margin-bottom: 10px;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+    .checkbox-option.selected
+    {
+        border: 0 !important;
+    }
+
+    .checkbox-option p
+    {
+        float: left;
+        padding-top: 3px;
+    }
+
+.check
+{
+    float: left;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid silver;
+    text-align: center;
+}
+
+    .check span
+    {
+        display: none;
+    }
+
+.checkbox-option.selected .check span
+{
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 6px;
+    display: block;
+}
+
+.carousel
+{
+    max-height: 100vh;
+}
+
+    .carousel .item .component-container
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: auto;
+        right: 0;
+        min-height: 100px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .carousel .item
+    {
+        text-align: center;
+    }
+
+        .carousel .item img
+        {
+            background-repeat: no-repeat;
+            display: inline;
+            margin: 0;
+        }

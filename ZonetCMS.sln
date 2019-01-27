@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZonetCMS.Web1", "ZonetCMS.Web\ZonetCMS.Web1.csproj", "{37C7AE8C-91FE-4B5E-B1B7-18E37EC904FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZonetCMS.Entities", "ZonetCMS.Entities\ZonetCMS.Entities.csproj", "{903B7F76-55C3-411D-9B72-3B8F695B3F57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZonetCMS.Services", "ZonetCMS.Services\ZonetCMS.Services.csproj", "{F655685D-8981-4628-A425-72E8763F35F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZonetCMS.Web", "ZonetCMS.Web\ZonetCMS.Web.csproj", "{1E8CE407-3D6A-46CB-A023-093272A89301}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37C7AE8C-91FE-4B5E-B1B7-18E37EC904FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C7AE8C-91FE-4B5E-B1B7-18E37EC904FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C7AE8C-91FE-4B5E-B1B7-18E37EC904FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C7AE8C-91FE-4B5E-B1B7-18E37EC904FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{903B7F76-55C3-411D-9B72-3B8F695B3F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{903B7F76-55C3-411D-9B72-3B8F695B3F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{903B7F76-55C3-411D-9B72-3B8F695B3F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{903B7F76-55C3-411D-9B72-3B8F695B3F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F655685D-8981-4628-A425-72E8763F35F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F655685D-8981-4628-A425-72E8763F35F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F655685D-8981-4628-A425-72E8763F35F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F655685D-8981-4628-A425-72E8763F35F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E8CE407-3D6A-46CB-A023-093272A89301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E8CE407-3D6A-46CB-A023-093272A89301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E8CE407-3D6A-46CB-A023-093272A89301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E8CE407-3D6A-46CB-A023-093272A89301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <title>@SettingHelper.Get("Website Name"): @ViewBag.Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta name="description" content="Portal CMS Administration Panel" />
+
+    @Styles.Render("~/Plugins/Bootstrap/Styles")
+    @Styles.Render("~/Plugins/FontAwesome/Styles")
+    @Styles.Render("~/Resources/CSS/Framework")
+    @Styles.Render("~/Resources/CSS/Framework/Administration")
+    @RenderSection("Styles", false)
+
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0-beta.1/jquery-ui.min.js"></script>
+    @RenderSection("HEADScripts", false)
+</head>
+<body>
+    <header><h3><img alt="Section Icon" src="@ViewBag.Icon" />@ViewBag.Title</h3></header>
+
+    @Html.Partial("_Sidebar")
+
+    <div id="page-container">@RenderBody()</div>
+
+    @RenderSection("DOMScripts", false)
+    @Scripts.Render("~/Plugins/Bootstrap/Scripts")
+    @Scripts.Render("~/Plugins/Popover/Scripts")
+    @Scripts.Render("~/Plugins/Confirmation/Scripts")
+    @Scripts.Render("~/Resources/JavaScript/Framework")
+</body>
+</html>

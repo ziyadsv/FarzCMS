@@ -1,0 +1,66 @@
+﻿.action-container
+{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 50;
+}
+
+.action-container-footer
+{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    top: auto;
+    left: auto;
+}
+
+.action
+{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background-color: black;
+    border: 1px dashed #191919;
+    color: #CCCCCC;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+    .action.green
+    {
+        background-color: #004200;
+        color: white;
+        border: 1px solid transparent;
+    }
+
+    .action.red
+    {
+        background-color: red;
+        color: white;
+        border: 1px solid transparent;
+    }
+
+    .action:first-child
+    {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .action:last-child
+    {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+.action-container .action:hover
+{
+    color: white;
+    background-color: #191919;
+}

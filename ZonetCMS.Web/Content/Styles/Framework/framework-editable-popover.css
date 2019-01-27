@@ -1,0 +1,42 @@
+﻿#page-wrapper .popover.editable-popover
+{
+    max-width: none;
+}
+
+    #page-wrapper .popover.editable-popover .alert
+    {
+        margin-bottom: 10px;
+    }
+
+    #page-wrapper .popover.editable-popover .btn
+    {
+        font-size: 15px;
+    }
+
+    #page-wrapper .popover.editable-popover .popover-content
+    {
+        position: relative;
+        min-width: 350px;
+        min-height: 160px;
+        padding: 20px;
+    }
+
+    #page-wrapper .popover.editable-popover .footer
+    {
+        text-align: right;
+    }
+
+    #page-wrapper .popover.editable-popover .btn
+    {
+        margin: 0;
+    }
+
+        #page-wrapper .popover.editable-popover .btn:not(:first-child)
+        {
+            margin-left: 5px;
+        }
+
+    #page-wrapper .popover.editable-popover h3
+    {
+        font-size: 20px;
+    }
