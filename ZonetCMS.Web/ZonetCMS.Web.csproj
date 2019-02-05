@@ -1045,6 +1045,7 @@
     <Folder Include="Areas\About\Views\About\" />
     <Folder Include="Areas\Authentication\Views\SingleSignOn\" />
     <Folder Include="bin\roslyn\" />
+    <Folder Include="HTML\html_v1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
